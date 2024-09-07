@@ -1,11 +1,12 @@
-using System;
+using System.Security.Permissions;
 using BepInEx;
 using UnityEngine;
 
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
+
 namespace AcridBiteLunge
 {
-    [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInPlugin("GiGaGon.AcridBiteLunge", "AcridBiteLunge", "1.0.0")]
+    [BepInPlugin("GiGaGon.AcridBiteLunge", "AcridBiteLunge", "1.1.0")]
     public class AcridBiteLunge : BaseUnityPlugin
     {
         public void Awake()
