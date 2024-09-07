@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace AcridBiteLunge
 {
-    [BepInPlugin("GiGaGon.AcridBiteLunge", "AcridBiteLunge", "1.1.0")]
+    [BepInPlugin("GiGaGon.AcridBiteLunge", "AcridBiteLunge", "1.2.0")]
     public class AcridBiteLunge : BaseUnityPlugin
     {
         public void Awake()
